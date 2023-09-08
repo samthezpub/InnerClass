@@ -50,7 +50,7 @@ public class GameConsole implements Powered {
         }
     }
 
-    private void checkStatus() throws ActivityException {
+    private void checkStatus() {
 
         try{
             if (waitingCounter > 5){
