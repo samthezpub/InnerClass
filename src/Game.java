@@ -15,7 +15,7 @@ public class Game {
         this.type = type;
     }
 
-    private static class GameDisk{
+    public static class GameDisk{
        private final String  description;
        private final Game data;
 
@@ -32,7 +32,7 @@ public class Game {
             return data;
         }
     }
-    private static class VirtualGame{
+    public static class VirtualGame{
         private double rating;
         private final Game data;
 
